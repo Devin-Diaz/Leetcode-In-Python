@@ -10,8 +10,6 @@ def containsDuplicateBrute(nums: list[int]) -> bool:
     return False
 
 def containsDuplicateOptimal(nums: list[int]) -> bool:
-    # nums is a list of integers
-
     hashset = set()
     for n in nums:
         if n in hashset: return True
