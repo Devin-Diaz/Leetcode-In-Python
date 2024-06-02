@@ -17,18 +17,18 @@ def valid_sudoku(board: list[list[str]]) -> bool:
             if board[i][j] == ".":
                 continue
                 
-            # Create unique identifiers for row, column, and sub-box checks
+            # create unique identifiers for row, column, and sub-box checks
             row_check = f"row {i} {board[i][j]}"
             col_check = f"col {j} {board[i][j]}"
             box_check = f"box {i//3}{j//3} {board[i][j]}"
                 
-            # Check if any of these identifiers already exist in the set
+            # check if any of these identifiers already exist in the set
             if (row_check in hashset or
                 col_check in hashset or
                 box_check in hashset):
                 return False
                 
-            # Add the identifiers to the set
+            # add the identifiers to the set
             hashset.add(row_check)
             hashset.add(col_check)
             hashset.add(box_check)
