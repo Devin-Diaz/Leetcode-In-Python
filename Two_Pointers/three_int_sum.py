@@ -5,7 +5,7 @@ where nums[i] + nums[j] + nums[k] == 0, and the indices i, j and k are all disti
 The output should not contain any duplicate triplets. You may return the output and 
 the triplets in any order
 '''
-def three_sum(nums: list[int]]) -> list[list[int]]:
+def three_sum(nums: list[int]) -> list[list[int]]:
     output_list = []
     nums.sort()
 
