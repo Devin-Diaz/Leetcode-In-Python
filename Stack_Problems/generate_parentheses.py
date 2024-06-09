@@ -35,5 +35,5 @@ def generateParenthesis(n: int) -> list[str]:
 
 '''
 Ngl this problem was crazy, backtracking has my head going crazy has my head going crazy my head going crazy
-head going crazy going crazy crazycmd
+head going crazy going crazy crazy.
 '''
