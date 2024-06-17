@@ -43,5 +43,4 @@ def longest_w_replacement(s: str, k: int) -> int:
     
     return (r - l) + 1
 
-print(longest_w_replacement("AAABABB", k = 1))
 
