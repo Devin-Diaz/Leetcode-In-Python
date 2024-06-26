@@ -10,7 +10,7 @@ Input: head = [1,2]
 Output: [2,1]
 '''
 
-def reverseList(head):    
+def reverseList(head: Optional[ListNode] -> Optional[ListNode]):    
     current_node = head
     prev_node = None
 
